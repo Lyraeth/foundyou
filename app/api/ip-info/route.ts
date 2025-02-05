@@ -24,7 +24,6 @@ export async function POST(req: Request) {
 
         const data = await response.json();
 
-        // Ambil hanya data yang diperlukan
         const filteredData = {
             ip: data.ip,
             hostname: data.hostname,

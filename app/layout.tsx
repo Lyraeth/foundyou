@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import { AppCard } from "@/components/app-card";
 
 const jost = Jost({
     subsets: ["latin"],
